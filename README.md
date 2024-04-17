@@ -19,6 +19,16 @@
 - The difference between IP Address is that it is consists of consecutive 1 and 0.
 - means that 11111111.11111111.11111100.00000000 can only have consecutive or non-consecutive 1's.
 
+### Prefix expression
+- Using bit expression, subnet masks can be represented in an even more simplified way than above. 
+- If IP address is 192.168.0.1/24, then the `/24` is representing subnet mask.
+- `/24` means that there are 24 1's in the 32 bits, starting from the front and working backwards.
+- -> `/24` → 11111111.11111111.11111111.00000000
+- The original way of representing subnet 255.255.255.0 is converted as /24, the number of bits that correspond to the network.
+
+```
+For instance it abbreviate 192.168.1.17 255.255.255.0 to `192.168.1.17/24`. how awesome it is.
+```
 
 ## What is CIDR
 - CIDR stands for Classless Inter-Domain Routing.
