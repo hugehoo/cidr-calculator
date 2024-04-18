@@ -36,3 +36,7 @@ For instance it abbreviate 192.168.1.17 255.255.255.0 to `192.168.1.17/24`. how 
 ![img.png](img.png)
 - this is network categorizing system before CIDR came along.
 
+
+## Purpose of CIDR
+- To get the IP address `range`.
+- 
