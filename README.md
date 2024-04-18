@@ -1,11 +1,6 @@
 # cidr-calculator
 - simple cidr calculator
-- visualization
-
-# web stack
-- BE : golang, gin
-- FE : react
-
+- CLI application
 
 ## Subnet
 - Before to know CIDR, understanding of subnet should be succeeded.
