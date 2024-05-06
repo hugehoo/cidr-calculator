@@ -1,4 +1,5 @@
-module cidr-calculator
+//module cidr-calculator
+module github.com/hugehoo/cidr-calculator
 
 go 1.21
 
