@@ -1,7 +1,11 @@
+/*
+Copyright © 2024 NAME HERE <EMAIL ADDRESS>
+*/
 package main
 
 import (
 	"bufio"
+	"cidr-calculator/cmd"
 	"fmt"
 	"net"
 	"os"
@@ -9,6 +13,10 @@ import (
 )
 
 func main() {
+	cmd.Execute()
+}
+
+func playCidr() {
 
 	fmt.Print("Input CIDR :")
 	reader := bufio.NewReader(os.Stdin)
